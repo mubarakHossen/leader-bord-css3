@@ -139,3 +139,37 @@ hr{
         grid-template-columns:repeat(1,1fr) ;
     }
 }
+ /*---------------- header------------- */
+ nav{
+     display: flex;
+     background-color: rgb(35, 35, 126);
+     height: 85px;
+ }
+ nav div{
+     color: #F3F1FF;
+     font-size: 30px;
+ }
+ .first-logo img{
+     height: 60px;
+     width: 60px;
+     font-size: 50px;
+     align-items: center;
+    
+ }
+ul li a{
+     text-decoration: none;
+     display: flex;
+ }
+ul ,li, a{
+    color: #F3F1FF;
+     display: flex;
+     margin: 14px;
+ }
+ nav,.first-logo{
+    padding-left:110px;
+    align-items: center ;
+ }
+ ul{
+     padding-left: 430px;
+     align-items: center;
+ }
